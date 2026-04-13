@@ -1,14 +1,87 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Website</title>
+    <title>Apurva's Cloud Website 🚀</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+        }
+
+        img {
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        button {
+            background-color: #008CBA;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005f73;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
+
 <body>
 
-    <h1>Welcome to My Website 🚀</h1>
-    <p>This is my first CI/CD project</p>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to My Cloud Website ☁️</h1>
+        <p>Deployed using AWS CI/CD 🚀</p>
+    </header>
 
-    <img src="image.jpg" width="300">
+    <!-- Image Section -->
+    <img src="welcome image.png" width="400">
+
+    <!-- Content -->
+    <div class="content">
+        <h2>Hello, I'm Apurva 👋</h2>
+        <p>This website is automatically deployed using GitHub, CodePipeline, and S3.</p>
+
+        <h3>💡 What I Built</h3>
+        <p>I created a CI/CD pipeline that updates my website automatically whenever I change code.</p>
+
+        <button onclick="showMessage()">Click Me 😊</button>
+
+        <p id="demo"></p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Apurva | Cloud Project</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById("demo").innerHTML = "🎉 Website Updated Successfully!";
+        }
+    </script>
 
 </body>
 </html>
